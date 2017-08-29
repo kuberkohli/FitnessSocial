@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A4D9CFA1E95632D00B3E3F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4D9CF81E95632D00B3E3F9 /* Main.storyboard */; };
+		3A608F761E9704E6003ACC20 /* DetailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A608F751E9704E6003ACC20 /* DetailImageView.swift */; };
+		3ABC8E4B1E9829A2001BCAB1 /* SocialFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC8E4A1E9829A2001BCAB1 /* SocialFeed.swift */; };
+		3ADB6F4C1E9C2DC2001C9927 /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB6F4B1E9C2DC2001C9927 /* UserDetail.swift */; };
+		3ADB6F501E9D5EF8001C9927 /* SearchViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB6F4F1E9D5EF8001C9927 /* SearchViewTableViewController.swift */; };
+		814C3ACB1B69877600E307BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814C3AC81B69877600E307BB /* Images.xcassets */; };
+		81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814A1A49DA1800E65899 /* AppDelegate.swift */; };
+		81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA814C1A49DA1800E65899 /* ViewController.swift */; };
+		81BA81701A49DB6800E65899 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA816B1A49DB6800E65899 /* Bolts.framework */; };
+		81BA81711A49DB6800E65899 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA816C1A49DB6800E65899 /* Parse.framework */; };
+		81BA81771A49E0D500E65899 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA81761A49E0D500E65899 /* libsqlite3.dylib */; };
+		81BA81791A49E0DB00E65899 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA81781A49E0DB00E65899 /* AudioToolbox.framework */; };
+		81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */; };
+		81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */; };
+		9ED0311C1EAD91B800157380 /* icon-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0311B1EAD91B800157380 /* icon-logo.png */; };
+		9ED031221EAD9DD500157380 /* 2017-04-23 10.42.36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ED031211EAD9DD500157380 /* 2017-04-23 10.42.36.jpg */; };
+		9ED0312A1EADB4D300157380 /* Dotted_Line.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED031291EADB4D300157380 /* Dotted_Line.png */; };
+		9ED0312C1EAEDFF900157380 /* dot_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED0312B1EAEDFF900157380 /* dot_line.png */; };
+		9ED031351EAEE31200157380 /* camera-icon-21.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED031331EAEE31200157380 /* camera-icon-21.png */; };
+		9ED031361EAEE31200157380 /* profile-icon-28.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED031341EAEE31200157380 /* profile-icon-28.png */; };
+		9ED031381EAEE31A00157380 /* barbell_dumb-bell_dumbbell_exercise_fitness_strength_weight-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED031371EAEE31A00157380 /* barbell_dumb-bell_dumbbell_exercise_fitness_strength_weight-512.png */; };
+		B9085BD71C46662300C89251 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B9085BD61C46662300C89251 /* placeholder.png */; };
+		B9085BDA1C4667D100C89251 /* ImageUploadControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9085BD91C4667D100C89251 /* ImageUploadControllerViewController.swift */; };
+		B9BB933B1C45644A00B10F79 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BB933A1C45644A00B10F79 /* UserListViewController.swift */; };
+		B9CE363C1C46B225004A42A1 /* TableImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CE363B1C46B225004A42A1 /* TableImageCell.swift */; };
+		B9CE363E1C46B9F2004A42A1 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CE363D1C46B9F2004A42A1 /* FeedTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A4D9CF91E95632D00B3E3F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A608F751E9704E6003ACC20 /* DetailImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailImageView.swift; sourceTree = "<group>"; };
+		3ABC8E4A1E9829A2001BCAB1 /* SocialFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialFeed.swift; sourceTree = "<group>"; };
+		3ADB6F4B1E9C2DC2001C9927 /* UserDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		3ADB6F4F1E9D5EF8001C9927 /* SearchViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewTableViewController.swift; sourceTree = "<group>"; };
+		814C3AC81B69877600E307BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		814C3AC91B69877600E307BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BA81451A49DA1800E65899 /* FitnessSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BA814A1A49DA1800E65899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81BA814C1A49DA1800E65899 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81BA816B1A49DB6800E65899 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		81BA816C1A49DB6800E65899 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		81BA816E1A49DB6800E65899 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		81BA81761A49E0D500E65899 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		81BA81781A49E0DB00E65899 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		81BA81801A49E10C00E65899 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		9ED0311B1EAD91B800157380 /* icon-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-logo.png"; sourceTree = "<group>"; };
+		9ED031211EAD9DD500157380 /* 2017-04-23 10.42.36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2017-04-23 10.42.36.jpg"; sourceTree = "<group>"; };
+		9ED031291EADB4D300157380 /* Dotted_Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dotted_Line.png; sourceTree = "<group>"; };
+		9ED0312B1EAEDFF900157380 /* dot_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot_line.png; sourceTree = "<group>"; };
+		9ED031331EAEE31200157380 /* camera-icon-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-icon-21.png"; sourceTree = "<group>"; };
+		9ED031341EAEE31200157380 /* profile-icon-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-icon-28.png"; sourceTree = "<group>"; };
+		9ED031371EAEE31A00157380 /* barbell_dumb-bell_dumbbell_exercise_fitness_strength_weight-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbell_dumb-bell_dumbbell_exercise_fitness_strength_weight-512.png"; sourceTree = "<group>"; };
+		B9085BD61C46662300C89251 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ParseStarterProject/placeholder.png; sourceTree = "<group>"; };
+		B9085BD91C4667D100C89251 /* ImageUploadControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUploadControllerViewController.swift; sourceTree = "<group>"; };
+		B9BB933A1C45644A00B10F79 /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		B9CE363B1C46B225004A42A1 /* TableImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableImageCell.swift; sourceTree = "<group>"; };
+		B9CE363D1C46B9F2004A42A1 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81BA81421A49DA1800E65899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */,
+				81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */,
+				81BA81791A49E0DB00E65899 /* AudioToolbox.framework in Frameworks */,
+				81BA81771A49E0D500E65899 /* libsqlite3.dylib in Frameworks */,
+				81BA81711A49DB6800E65899 /* Parse.framework in Frameworks */,
+				81BA81701A49DB6800E65899 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		814C3AC51B69877600E307BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				814C3AC81B69877600E307BB /* Images.xcassets */,
+				814C3AC91B69877600E307BB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		81BA813C1A49DA1800E65899 = {
+			isa = PBXGroup;
+			children = (
+				B9085BD81C46662A00C89251 /* images */,
+				81BA81471A49DA1800E65899 /* FitnessSocial */,
+				814C3AC51B69877600E307BB /* Resources */,
+				81BA816A1A49DB5600E65899 /* Frameworks */,
+				81BA81461A49DA1800E65899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81BA81461A49DA1800E65899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81BA81451A49DA1800E65899 /* FitnessSocial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81BA81471A49DA1800E65899 /* FitnessSocial */ = {
+			isa = PBXGroup;
+			children = (
+				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
+				81BA814C1A49DA1800E65899 /* ViewController.swift */,
+				B9CE363D1C46B9F2004A42A1 /* FeedTableViewController.swift */,
+				B9CE363B1C46B225004A42A1 /* TableImageCell.swift */,
+				B9085BD91C4667D100C89251 /* ImageUploadControllerViewController.swift */,
+				B9BB933A1C45644A00B10F79 /* UserListViewController.swift */,
+				3A608F751E9704E6003ACC20 /* DetailImageView.swift */,
+				3ABC8E4A1E9829A2001BCAB1 /* SocialFeed.swift */,
+				3ADB6F4B1E9C2DC2001C9927 /* UserDetail.swift */,
+				3ADB6F4F1E9D5EF8001C9927 /* SearchViewTableViewController.swift */,
+				3A4D9CF81E95632D00B3E3F9 /* Main.storyboard */,
+			);
+			name = FitnessSocial;
+			path = ParseStarterProject;
+			sourceTree = "<group>";
+		};
+		81BA816A1A49DB5600E65899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81BA816B1A49DB6800E65899 /* Bolts.framework */,
+				81BA816C1A49DB6800E65899 /* Parse.framework */,
+				81BA816E1A49DB6800E65899 /* ParseFacebookUtils.framework */,
+				81BA81801A49E10C00E65899 /* ParseUI.framework */,
+				81BA81751A49E0C500E65899 /* System Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81BA81751A49E0C500E65899 /* System Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */,
+				81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */,
+				81BA81781A49E0DB00E65899 /* AudioToolbox.framework */,
+				81BA81761A49E0D500E65899 /* libsqlite3.dylib */,
+			);
+			name = "System Frameworks";
+			sourceTree = "<group>";
+		};
+		B9085BD81C46662A00C89251 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B9085BD61C46662300C89251 /* placeholder.png */,
+				9ED0311B1EAD91B800157380 /* icon-logo.png */,
+				9ED031291EADB4D300157380 /* Dotted_Line.png */,
+				9ED0312B1EAEDFF900157380 /* dot_line.png */,
+				9ED031331EAEE31200157380 /* camera-icon-21.png */,
+				9ED031371EAEE31A00157380 /* barbell_dumb-bell_dumbbell_exercise_fitness_strength_weight-512.png */,
+				9ED031341EAEE31200157380 /* profile-icon-28.png */,
+				9ED031211EAD9DD500157380 /* 2017-04-23 10.42.36.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81BA81441A49DA1800E65899 /* FitnessSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BA81641A49DA1800E65899 /* Build configuration list for PBXNativeTarget "FitnessSocial" */;
+			buildPhases = (
+				81BA81411A49DA1800E65899 /* Sources */,
+				81BA81421A49DA1800E65899 /* Frameworks */,
+				81BA81431A49DA1800E65899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessSocial;
+			productName = ParseStarterProject;
+			productReference = 81BA81451A49DA1800E65899 /* FitnessSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81BA813D1A49DA1800E65899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Parse;
+				TargetAttributes = {
+					81BA81441A49DA1800E65899 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 81BA81401A49DA1800E65899 /* Build configuration list for PBXProject "FitnessSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81BA813C1A49DA1800E65899;
+			productRefGroup = 81BA81461A49DA1800E65899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81BA81441A49DA1800E65899 /* FitnessSocial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81BA81431A49DA1800E65899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9085BD71C46662300C89251 /* placeholder.png in Resources */,
+				9ED031221EAD9DD500157380 /* 2017-04-23 10.42.36.jpg in Resources */,
+				9ED0312A1EADB4D300157380 /* Dotted_Line.png in Resources */,
+				9ED0312C1EAEDFF900157380 /* dot_line.png in Resources */,
+				9ED031361EAEE31200157380 /* profile-icon-28.png in Resources */,
+				9ED031351EAEE31200157380 /* camera-icon-21.png in Resources */,
+				814C3ACB1B69877600E307BB /* Images.xcassets in Resources */,
+				9ED031381EAEE31A00157380 /* barbell_dumb-bell_dumbbell_exercise_fitness_strength_weight-512.png in Resources */,
+				3A4D9CFA1E95632D00B3E3F9 /* Main.storyboard in Resources */,
+				9ED0311C1EAD91B800157380 /* icon-logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81BA81411A49DA1800E65899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADB6F501E9D5EF8001C9927 /* SearchViewTableViewController.swift in Sources */,
+				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
+				3A608F761E9704E6003ACC20 /* DetailImageView.swift in Sources */,
+				3ABC8E4B1E9829A2001BCAB1 /* SocialFeed.swift in Sources */,
+				3ADB6F4C1E9C2DC2001C9927 /* UserDetail.swift in Sources */,
+				B9CE363E1C46B9F2004A42A1 /* FeedTableViewController.swift in Sources */,
+				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
+				B9BB933B1C45644A00B10F79 /* UserListViewController.swift in Sources */,
+				B9CE363C1C46B225004A42A1 /* TableImageCell.swift in Sources */,
+				B9085BDA1C4667D100C89251 /* ImageUploadControllerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A4D9CF81E95632D00B3E3F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A4D9CF91E95632D00B3E3F9 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81BA81621A49DA1800E65899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81BA81631A49DA1800E65899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81BA81651A49DA1800E65899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = FitnessSocial;
+			};
+			name = Debug;
+		};
+		81BA81661A49DA1800E65899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = FitnessSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81BA81401A49DA1800E65899 /* Build configuration list for PBXProject "FitnessSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BA81621A49DA1800E65899 /* Debug */,
+				81BA81631A49DA1800E65899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BA81641A49DA1800E65899 /* Build configuration list for PBXNativeTarget "FitnessSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BA81651A49DA1800E65899 /* Debug */,
+				81BA81661A49DA1800E65899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81BA813D1A49DA1800E65899 /* Project object */;
+}
